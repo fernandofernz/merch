@@ -1,0 +1,52 @@
+.title a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  .appBarCabeza {
+    color: #0070f3 !important;
+  }
+  .appResponsive {
+    margin: 20px 10px;
+  }
+  .container {
+    /* Container fluid */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .flex {
+    flex: 1;
+  }
+  .title {
+    color: #3C4858;
+    margin: 1.75rem 0 0.875rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+  }
+  .drawerPaper {
+    border: none;
+    bottom: 0;
+    transition-property: top, bottom, width;
+    transition-duration: .2s, .2s, .35s;
+    transition-timing-function: linear, linear, ease;
+    width: drawerWidth;
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100vh;
+    right: 0;
+    left: auto;
+    visibility: visible;
+    overflow-y: visible;
+    border-top: none;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0;
+    /* transition */
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    /* boxShadow */
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
